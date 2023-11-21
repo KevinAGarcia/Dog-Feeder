@@ -39,7 +39,12 @@ After the countdown, the servo motor moves to 120 degrees for 0.5 seconds, then 
 Finally, menuRequested is set to true to restart the process.
 
 
-How to assemble the prototype 
+How to assemble the prototype: 
+
+![image](https://github.com/kevin343/Dog-Feeder/assets/113644566/9818591f-6eb6-4bd0-b4aa-dffcadd3c579)
+
+
+
 
 
 
