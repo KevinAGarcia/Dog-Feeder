@@ -12,8 +12,34 @@ The elements needed for this project are :
   1 Step motor sg90 
   5 buttons 
   1 potentiometer
-  
+  1 bottle
 
+
+how code works :
+
+ 
+1. Initialization:
+A LiquidCrystal object is initialized for the LCD and a Servo object for the servo motor.
+Pins for buttons (backButtonPin, upButtonPin, downButtonPin, doorButtonPin, acceptButtonPin) are set as INPUT_PULLUP, assuming that the buttons are connected to ground and will be pulled up when not pressed.
+The servo motor is attached to servoPin and set to the initial position (0 degrees).
+  
+2. Main Loop:
+The main loop consists of two major parts: setting the time and running the countdown.
+
+Setting the Time:
+
+If menuRequested is true, it enters a loop where the user can set the countdown time in hours using the up and down buttons. The selected time is displayed on the LCD.
+The menu is exited when the accept button is pressed (digitalRead(acceptButtonPin) == LOW), and it transitions to the countdown display.
+
+3. Countdown:
+The countdown begins after the time is set. The loop waits for the specified duration (selectedHours * 3600000) while checking for the back button to return to the time-setting menu or the door button to open/close the door (assuming the servo motor controls a door mechanism).
+
+After the countdown, the servo motor moves to 120 degrees for 0.5 seconds, then returns to 0 degrees for another 0.5 seconds before detaching. This might represent an action like opening and closing a door.
+
+Finally, menuRequested is set to true to restart the process.
+
+
+How to assemble the prototype 
 
 
 
