@@ -58,7 +58,7 @@ In the step motor there is a cap connected to it that opens and closes to releas
 
 
 
-
+In th evideo from lefto to right , the first one is to cancel any operation, the second and third are for setting the timer in hours. The next one is to open de cap anytime the button is pressed. The last one is to accept and operation .
 
 
 
