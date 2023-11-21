@@ -52,6 +52,10 @@ The step motor is connected to the arduino UNO and the step motor is mounted in 
 
 ![image](https://github.com/kevin343/Dog-Feeder/assets/113644566/5bade602-8f91-4bdf-abb9-636aa2ed6ad4)
 
+In the step motor there is a cap connected to it that opens and closes to release the dog food according to the timer.
+
+
+
 
 
 
