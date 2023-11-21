@@ -44,6 +44,15 @@ How to assemble the prototype:
 ![image](https://github.com/kevin343/Dog-Feeder/assets/113644566/9818591f-6eb6-4bd0-b4aa-dffcadd3c579)
 
 
+Arduino Uno energizes the lcd screen, and the brightness can be regulated with the potentiometer. 
+
+![image](https://github.com/kevin343/Dog-Feeder/assets/113644566/cafff166-d540-4e41-aaca-9feb203a4040)
+
+The step motor is connected to the arduino UNO and the step motor is mounted in a bottle.
+
+![image](https://github.com/kevin343/Dog-Feeder/assets/113644566/5bade602-8f91-4bdf-abb9-636aa2ed6ad4)
+
+
 
 
 
